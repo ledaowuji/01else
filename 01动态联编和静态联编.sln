@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01动态联编和静态联编", "01动态联编和静态联编\01动态联编和静态联编.vcxproj", "{0DD45B27-D1FE-4CC4-8D2D-2818C363EBE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02多态案例", "02多态案例\02多态案例.vcxproj", "{0C17C410-4900-4CF2-B386-97420BD1F047}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03抽象类", "03抽象类\03抽象类.vcxproj", "{3E9EC7E0-BA30-48DD-81B7-ADB3E33D0C98}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04接口的定义", "04接口的定义\04接口的定义.vcxproj", "{A509E146-429A-4CD4-9C87-A4D5CDD63FE0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05模版方法模式", "05模版方法模式\05模版方法模式.vcxproj", "{3E774B73-4545-4360-A81E-B492EC451239}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06虚析构函数", "06虚析构函数\06虚析构函数.vcxproj", "{88DBD386-958F-42D8-841A-DC0813083A2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07多态案例_动物园", "07多态案例_动物园\07多态案例_动物园.vcxproj", "{F242A41D-7C3F-4AFD-B3D5-66A867737851}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08多态中父类引用子类对象", "08多态中父类引用子类对象\08多态中父类引用子类对象.vcxproj", "{DE9F6167-473F-4209-B609-5B5DF58CFE46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD45B27-D1FE-4CC4-8D2D-2818C363EBE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DD45B27-D1FE-4CC4-8D2D-2818C363EBE8}.Debug|Win32.Build.0 = Debug|Win32
+		{0DD45B27-D1FE-4CC4-8D2D-2818C363EBE8}.Release|Win32.ActiveCfg = Release|Win32
+		{0DD45B27-D1FE-4CC4-8D2D-2818C363EBE8}.Release|Win32.Build.0 = Release|Win32
+		{0C17C410-4900-4CF2-B386-97420BD1F047}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0C17C410-4900-4CF2-B386-97420BD1F047}.Debug|Win32.Build.0 = Debug|Win32
+		{0C17C410-4900-4CF2-B386-97420BD1F047}.Release|Win32.ActiveCfg = Release|Win32
+		{0C17C410-4900-4CF2-B386-97420BD1F047}.Release|Win32.Build.0 = Release|Win32
+		{3E9EC7E0-BA30-48DD-81B7-ADB3E33D0C98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E9EC7E0-BA30-48DD-81B7-ADB3E33D0C98}.Debug|Win32.Build.0 = Debug|Win32
+		{3E9EC7E0-BA30-48DD-81B7-ADB3E33D0C98}.Release|Win32.ActiveCfg = Release|Win32
+		{3E9EC7E0-BA30-48DD-81B7-ADB3E33D0C98}.Release|Win32.Build.0 = Release|Win32
+		{A509E146-429A-4CD4-9C87-A4D5CDD63FE0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A509E146-429A-4CD4-9C87-A4D5CDD63FE0}.Debug|Win32.Build.0 = Debug|Win32
+		{A509E146-429A-4CD4-9C87-A4D5CDD63FE0}.Release|Win32.ActiveCfg = Release|Win32
+		{A509E146-429A-4CD4-9C87-A4D5CDD63FE0}.Release|Win32.Build.0 = Release|Win32
+		{3E774B73-4545-4360-A81E-B492EC451239}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E774B73-4545-4360-A81E-B492EC451239}.Debug|Win32.Build.0 = Debug|Win32
+		{3E774B73-4545-4360-A81E-B492EC451239}.Release|Win32.ActiveCfg = Release|Win32
+		{3E774B73-4545-4360-A81E-B492EC451239}.Release|Win32.Build.0 = Release|Win32
+		{88DBD386-958F-42D8-841A-DC0813083A2B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88DBD386-958F-42D8-841A-DC0813083A2B}.Debug|Win32.Build.0 = Debug|Win32
+		{88DBD386-958F-42D8-841A-DC0813083A2B}.Release|Win32.ActiveCfg = Release|Win32
+		{88DBD386-958F-42D8-841A-DC0813083A2B}.Release|Win32.Build.0 = Release|Win32
+		{F242A41D-7C3F-4AFD-B3D5-66A867737851}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F242A41D-7C3F-4AFD-B3D5-66A867737851}.Debug|Win32.Build.0 = Debug|Win32
+		{F242A41D-7C3F-4AFD-B3D5-66A867737851}.Release|Win32.ActiveCfg = Release|Win32
+		{F242A41D-7C3F-4AFD-B3D5-66A867737851}.Release|Win32.Build.0 = Release|Win32
+		{DE9F6167-473F-4209-B609-5B5DF58CFE46}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE9F6167-473F-4209-B609-5B5DF58CFE46}.Debug|Win32.Build.0 = Debug|Win32
+		{DE9F6167-473F-4209-B609-5B5DF58CFE46}.Release|Win32.ActiveCfg = Release|Win32
+		{DE9F6167-473F-4209-B609-5B5DF58CFE46}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
